@@ -15,7 +15,7 @@ jobs:
       postgres:
         image: postgres:13
         env:
-          POSTGRES_DB: python_DB
+          POSTGRES_DB: python_backend
           POSTGRES_USER: ${{ secrets.DB_USERNAME }}
           POSTGRES_PASSWORD: ${{ secrets.DB_PASSWORD }}
         ports:
